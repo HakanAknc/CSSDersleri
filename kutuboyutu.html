@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Css Öğreniyotum</title>
+        <style>
+            *{
+                border-style: double;
+            }
+
+            h1{
+                width: 180px;
+                padding: 30px 50px; /* ortaya doğru hizalar*/
+
+                border-radius: 30px;
+                padding: 10px;
+                box-shadow: 10px 10px 5px red;  /*gölge oluşturur.*/
+                
+            }
+
+            h2{
+                width: 200px;
+                height: 100px;
+                padding-top: 20px;  /*üst boşluk*/
+                padding-right: 25px;  /*yan boşluklar sağ*/
+                padding-bottom: 20px;  /*alt boşluk*/
+                padding-left: 25px;  /*yan boşluk sol*/
+                background-color: blue;
+                background-image: url("resimler/bayrak.png");
+                background-size: 100px;
+                background-repeat: no-repeat;
+                background-position-x: center;
+                background-position-y: center;
+            }
+
+            h3{
+                width: 130px;
+                height: 50px;
+                margin: 100px;  /*kutuyu kaydırır.*/
+            }
+
+            p{
+                width: 320px;
+                height: 200px;
+                padding: 20px 80px;
+                background-image: url("resimler/trHarita.png");
+                background-size: 500px;
+            }
+
+            #kutu{
+                width: 200px;
+                height: 200px;
+                border: blue solid 5px;
+                overflow: auto;  /*kutunun içindeki yazının taşmasının engelliyor içine çubuk yerleştiriyor.*/
+                /*border-radius: 90px;*/  /* kutunun kenarlarını yuvarlak yapıyor*/
+
+            }
+        </style>
+    </head>
+    <body>
+        <h1>Hakan Akıncı</h1>
+        <h2>Evren Akıncı</h2>
+        <h3>Eyüpcan Akıncı</h3>
+        <p>Lorem ipsum dolor sit amet.</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+        <div id="kutu">
+            Lorem ipsum dolor sit, amet consectetur 
+            adipisicing elit. 
+            Architecto, dolor. 
+            Repellendus in voluptas 
+            provident quam 
+            magni, obcaecati 
+            sunt nobis cumque ipsam aliquid 
+            adipisci iste 
+            veniam libero consectetur 
+            cum dicta reprehenderit.
+        </div>
+    </body>
+</html>

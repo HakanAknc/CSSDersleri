@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> Css Öğreniyorm </title>
+        <style>
+            
+            #kutu{
+                /*
+                border-style: solid; /*kutu şekli
+                border-width: 10px;  /*kutu kalınlığı
+                border-color: blue;  /*kutu rengi
+                */
+               /* border: dashed 10px red;  /*tek satırda da yazılabilir*/
+
+               border-style: solid dashed dotted double;
+               border-width: 10px 20px 30px 40px;
+               border-color: red blue yellow green;
+            }
+
+            body{
+                font-family: Verdana, Geneva, Tahoma, sans-serif;
+                color: yellow;
+                font-weight: bold;
+            }
+
+            #formkutusu{
+                border: yellow solid 5px;
+                border-radius: 10px;
+                background-color: blue;
+                padding: 20px;
+
+            }
+        </style>
+    </head>
+    <body>
+        <div id="kutu">
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit.<br>
+            Veritatis repellat tempore officia nulla, veniam perferendis.<br>
+            Dignissimos alias harum, rem nostrum quasi distinctio.<br>
+            Lorem ipsum dolor sit amet.
+        </div>
+
+        <br>
+        <br>
+        <br>
+
+        <div id="formkutusu">
+            <form>
+                <table>
+                    <tr><td>Ad Soyad:</td><td><input type="text"></td></tr>
+                    <tr><td>Yaş</td><td><input type="text"></td></tr>
+                    <tr><td></td><td><input type="submit"><input type="reset"></td></tr>
+                </table>
+            </form>
+        </div>
+    </body>
+</html>
